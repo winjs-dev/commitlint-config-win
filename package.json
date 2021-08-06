@@ -1,0 +1,24 @@
+{
+  "name": "@winner-fed/commitlint-config-win",
+  "version": "1.0.0",
+  "description": "Commitlint shareable configuration for Whale F2E Guidelines",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "commitlint",
+    "commitlint-config",
+    "@winner-fed/f2elint"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=v12"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.5.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
