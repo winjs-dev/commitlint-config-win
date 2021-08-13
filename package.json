@@ -15,10 +15,16 @@
   "engines": {
     "node": ">=v12"
   },
+  "scripts": {
+    "release": "np"
+  },
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^4.5.0"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "np": "^7.5.0"
   }
 }
