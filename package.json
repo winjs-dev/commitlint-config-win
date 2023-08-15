@@ -1,6 +1,6 @@
 {
   "name": "@winner-fed/commitlint-config-win",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Commitlint shareable configuration for Whale F2E Guidelines",
   "main": "index.js",
   "files": [
