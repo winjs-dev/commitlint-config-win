@@ -1,6 +1,6 @@
 {
   "name": "@winner-fed/commitlint-config-win",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Commitlint shareable configuration for Whale F2E Guidelines",
   "main": "index.js",
   "files": [
@@ -22,7 +22,8 @@
     "conventional-changelog-conventionalcommits": "^4.5.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
     "np": "^7.5.0"
