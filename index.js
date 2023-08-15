@@ -26,6 +26,7 @@ module.exports = {
         'revert',
         'ci',
         'build',
+        'release',
         'wip'
       ],
     ],
@@ -77,6 +78,11 @@ module.exports = {
               'Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)',
             title: 'Builds',
             emoji: '🛠',
+          },
+          release: {
+            description: "Release a new version",
+            title: 'Release',
+            emoji: '🎉',
           },
           ci: {
             description:
